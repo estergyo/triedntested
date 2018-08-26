@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aquaset"
+    android:paddingTop="70dp"
+    android:paddingBottom="70dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/background_rectangle">
+
+        <!--<Button-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="login"-->
+        <!--android:id="@+id/buttonLogin"-->
+        <!--android:layout_marginBottom="10dp"/>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Handi"
+                android:id="@+id/textView2"
+                android:textSize="40dp"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="15dp">
+            <EditText
+                android:id="@+id/editTextEmailLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="username"
+                android:ems="12"
+                android:textColorHint="#ffffffff"
+                android:textColor="#ffffffff"
+                android:layout_marginBottom="5dp"
+                android:singleLine="true">
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editTextPasswordLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:textColorHint="#ffffffff"
+                android:textColor="#ffffffff"
+                android:layout_marginBottom="5dp"
+                android:singleLine="true"/>
+
+            <Button
+                android:id="@+id/buttonToLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textColor="#ffffffff"
+                android:background="@drawable/button"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registrasi"
+                android:id="@+id/textViewSignUp"
+                android:autoLink="web"
+                android:textColor="#ffffffff"
+                android:paddingBottom="30dp"/>
+        </LinearLayout>
+
+        <!--<Button-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="sign up"-->
+        <!--android:id="@+id/buttonSignUp"/>-->
+    </LinearLayout>
+
+
+</LinearLayout>

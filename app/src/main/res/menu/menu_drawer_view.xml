@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:title="Daftar Profil" />
+        <item
+            android:id="@+id/nav_eleventh_fragment"
+            android:title="Keluar" />
+    </group>
+</menu>

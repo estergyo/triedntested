@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Tried and Tested</string>
+    <string name="action_settings">Setting</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <integer name="qrcode_rq_code">1</integer>
+    <integer name="item_new_rq_code">2</integer>
+    <integer name="item_update_rq_code">3</integer>
+    <integer name="category_new_rq_code">4</integer>
+    <integer name="category_update_rq_code">5</integer>
+    <integer name="supplier_new_rq_code">6</integer>
+    <integer name="supplier_update_rq_code">7</integer>
+    <integer name="item_edit_rq_code">8</integer>
+    <integer name="category_edit_rq_code">9</integer>
+    <integer name="supplier_edit_rq_code">10</integer>
+    <integer name="item_transaksi_rq_code">11</integer>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="home">Home</string>
+
+    <string name="editprofile">Edit Profil</string>
+
+    <string name="LOGIN_PREFERENCES">user</string>
+    <string name="key_nama">nama</string>
+    <string name="key_isLogin">isLoggedIn</string>
+
+    <string name="URL_LOGIN_JSON">http://sasmitoh.nitarahmawati.my.id/login_json.php</string>
+    <string name="URL_REGISTER_JSON">http://sasmitoh.nitarahmawati.my.id/register.php</string>
+
+</resources>
